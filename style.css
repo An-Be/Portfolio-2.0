@@ -1,13 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
+
 *{
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
 }
 body{
     height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
 }
-header{
+/* landing image */
+h1{
+    color: white;
+}
+a{
+    color: white;
+}
+#showcase{
+    background-image: url('/img/background-home.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#top-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#intro h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-weight: 300;
+    font-size: 1rem;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: black;
+    line-height: 2rem;
+}
+#tech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tech h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+#tech li{
+    list-style-type: none;
+}
+#tech-list{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+[tech=HTML] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid ffadad;
+    background-color: #ffadad;
+    border-radius: 1rem;
+}
+[tech=CSS] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #ffd6a5;
+    background-color: #ffd6a5;
+    border-radius: 1rem;
+}
+[tech=JS] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #fdffb6;
+    background-color: #fdffb6;
+    border-radius: 1rem;
+}
+[tech=C] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #caffbf;
+    background-color: #caffbf;
+    border-radius: 1rem;
+}
+[tech=Python] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #9bf6ff;
+    background-color: #9bf6ff;
+    border-radius: 1rem;
+}
+[tech=SQL] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #a0c4ff;
+    background-color: #a0c4ff;
+    border-radius: 1rem;
+}
+[tech=React] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #bdb2ff;
+    background-color: #bdb2ff;
+    border-radius: 1rem;
+}
+[tech=NET] {
+    margin: .5rem;
+    padding: 3px 3px;
+    border: 1px solid #ffc6ff;
+    background-color: #ffc6ff;
+    border-radius: 1rem;
 }
 
 
