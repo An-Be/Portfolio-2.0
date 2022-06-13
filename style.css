@@ -249,6 +249,13 @@ footer{
         margin-left: 2rem;
         flex-direction: column;
     }
+    #intro h1{
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad , 6px 6px 1px #a0c4ff;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 
 }
 @media(max-width:767px){
@@ -278,6 +285,13 @@ footer{
         align-items: center;
         margin-left: 2rem;
         flex-direction: column;
+    }
+    #intro h1{
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad , 6px 6px 1px #a0c4ff;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
 }
