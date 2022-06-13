@@ -13,7 +13,7 @@ body{
 h1{
     color: white;
 }
-a{
+nav a{
     color: white;
 }
 /* landing image */
@@ -154,36 +154,41 @@ article h2{
 }
 
 #btn-deployed{
+    display: block;
     background-color: #fdffb6;
     border: none;
     border-radius: 1rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     box-shadow: 3px 3px 1px #bdb2ff;
+
 }
 #btn-source-kerma{
+    display: block;
     background-color: #ffadad;
     border: none;
     border-radius: 1rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     box-shadow: 3px 3px 1px #bdb2ff;
 }
 #btn-source-moviefy{
+    display: block;
     background-color: #caffbf;
     border: none;
     border-radius: 1rem;
     margin: 1rem;
-    padding: 1rem;
-    box-shadow: 3px 3px 1px #bdb2ff;
+    padding: .5rem;
+        box-shadow: 3px 3px 1px #bdb2ff;
 
 }
 #btn-source-blog{
+    display: block;
     background-color: #ffc6ff;
     border: none;
     border-radius: 1rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     box-shadow: 3px 3px 1px #bdb2ff;
 } 
 
