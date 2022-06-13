@@ -33,7 +33,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 #intro h1{
     font-size: 2.5rem;
@@ -153,7 +152,16 @@ article h2{
     height: 33rem;
     margin: 1rem;
 }
-button{
+
+#btn-deployed{
+    background-color: #fdffb6;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 1px #bdb2ff;
+}
+#btn-source-kerma{
     background-color: #ffadad;
     border: none;
     border-radius: 1rem;
@@ -161,4 +169,55 @@ button{
     padding: 1rem;
     box-shadow: 3px 3px 1px #bdb2ff;
 }
+#btn-source-moviefy{
+    background-color: #caffbf;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 1px #bdb2ff;
 
+}
+#btn-source-blog{
+    background-color: #ffc6ff;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 1px #bdb2ff;
+} 
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 250, 250);
+}
+#socials{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#socials button{
+    margin: 1rem;
+}
+.social-btn-git{
+    background-color: #9bf6ff;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 1px #bdb2ff;
+
+}
+.social-btn-linked{
+    background-color: #caffbf;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 1px #bdb2ff;
+
+}

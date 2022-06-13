@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aa0eeef3e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Andrea Codes</title>
 </head>
@@ -51,8 +52,8 @@
                 <img src="/img/Kerma.png" width="200" alt="Image of Kerma Project">
                 <p>Kerma is a website developed for a decentralized crypto wallet. It was created using HTML, CSS, Javascript, and Bootstrap. Kerma was built during my time in the bootstrap course at Nucamp.</p>
                 <div id="tech-btns">
-                <button>Deployed</button>
-                <button>Source Code</button>
+                <button id="btn-deployed">Deployed</button>
+                <button id="btn-source-kerma">Source Code</button>
                 </div>
             </article>
             <article class="card">
@@ -60,7 +61,7 @@
                 <img src="/img/Moviefy.png" width="200" alt="Image of Moviefy Project">
                 <p>Moviefy is an ASP.NET Core MVC App that uses CRUD operations and policy-base authentication. Anon users can see the list of movies available, regular users without a policy can edit, add, list, and watch movies. Users with policy, can do everything including delete movies.</p>
                 <div id="tech-btns">
-                    <button>Source Code</button>
+                    <button id="btn-source-moviefy">Source Code</button>
                 </div>
             </article>
             <article class="card">
@@ -68,7 +69,7 @@
                 <img src="/img/Nontraditionals.png" width="200" alt="Image of Non-Traditionals Blog Project">
                 <p>Non-Traditionals blog is an ASP.NET Core MVC app that allows authenticated users to post, edit, view, and delete blogs. They can only edit and delete blogs they themselves have created. Anon users can view blogs but can not make any changes until they have registered.</p>
                 <div id="tech-btns">
-                    <button>Source Code</button>
+                    <button id="btn-source-blog">Source Code</button>
                 </div>
             </article>
         </section>
@@ -80,11 +81,11 @@
 
     </main>
     <footer>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div id="socials">
+        <button class="social-btn-git"><i class="fa-brands fa-github"></i></button>
+        <button class="social-btn-linked"><i class="fa-brands fa-linkedin"></i></button>
+     </div>
+        <p>© 2022 Andrea Berrocal</p>
     </footer>
 </body>
 </html>
