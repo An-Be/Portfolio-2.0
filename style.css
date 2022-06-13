@@ -34,7 +34,8 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-#intro h1{
+#intro h2{
+    color: white;
     font-size: 2.5rem;
     text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad , 6px 6px 1px #a0c4ff;
     text-align: center;
@@ -42,15 +43,13 @@ nav a{
 p{
     font-weight: 300;
     font-size: 1rem;
-    color: black;
     line-height: 2rem;
 }
 #about{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-
+    margin: 2rem;
 }
 #tech{
     display: flex;
@@ -192,7 +191,6 @@ article h2{
     padding: .5rem;
     box-shadow: 3px 3px 1px #bdb2ff;
 } 
-
 footer{
     display: flex;
     flex-direction: column;
@@ -235,7 +233,7 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 20px;
+        margin: 2rem;
     }
     #tech{
         display: flex;
@@ -249,7 +247,8 @@ footer{
         margin-left: 2rem;
         flex-direction: column;
     }
-    #intro h1{
+    #intro h2{
+        color: white;
         font-size: 2.5rem;
         text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad , 6px 6px 1px #a0c4ff;
         text-align: center;
@@ -264,7 +263,7 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 20px;
+        margin: 2rem;
     }
     #projects{
         display: flex;
@@ -286,7 +285,8 @@ footer{
         margin-left: 2rem;
         flex-direction: column;
     }
-    #intro h1{
+    #intro h2{
+        color: white;
         font-size: 2.5rem;
         text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad , 6px 6px 1px #a0c4ff;
         text-align: center;
