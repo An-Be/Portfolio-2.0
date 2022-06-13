@@ -36,17 +36,18 @@ a{
 #intro h1{
     font-size: 2.5rem;
 }
-h2{
+p{
     font-weight: 300;
     font-size: 1rem;
+    color: black;
+    line-height: 2rem;
 }
 #home{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
-    color: black;
-    line-height: 2rem;
+
 }
 #tech{
     display: flex;
@@ -120,6 +121,22 @@ h2{
     border: 1px solid #ffc6ff;
     background-color: #ffc6ff;
     border-radius: 1rem;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+.card{
+    border: 1px solid black;
+    border-radius: 1rem;
+    max-width: 20rem;
+    padding: 1rem;
+    height: 30rem;
+    margin: 1rem;
 }
 
 
