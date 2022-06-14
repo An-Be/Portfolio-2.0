@@ -239,7 +239,7 @@ div a:hover {
   box-shadow: 3px 3px 1px #bdb2ff;
 
 }
-#contact{
+/* #contact{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,7 +262,7 @@ label, input, textarea{
 }
 textarea{
   height: 15rem;
-}
+} */
 #submit{
   background-color: #caffbf;
   border: none;
