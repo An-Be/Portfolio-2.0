@@ -16,6 +16,7 @@ h1 {
 nav a {
   color: white;
 }
+
 /* landing image */
 #showcase {
   background-image: url("Img\\background-home.jpg");
@@ -212,6 +213,25 @@ div a:hover {
 #btn-source-password-gen{
   display: block;
   background-color: #a0c4ff;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 1px #bdb2ff;
+}
+#btn-deployed-random-num-gen{
+  display: block;
+  background-color: #fdffb6;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 1px #bdb2ff;
+
+}
+#btn-source-random-num-gen{
+  display: block;
+  background-color: #ffadad;
   border: none;
   border-radius: 1rem;
   margin: 1rem;
