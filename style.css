@@ -64,11 +64,17 @@ p{
 }
 #tech li{
     list-style-type: none;
+    transition: width 2s, transform 3s;
+}
+
+#tech li:hover{
+    width: 100px;
 }
 #tech-list{
     display: flex;
     align-items: center;
     margin-left: 2rem;
+    
 }
 [tech=HTML] {
     text-align: center;
@@ -153,7 +159,12 @@ article h2{
     height: 33rem;
     margin: 1rem;
 }
-
+div a{
+    opacity: 0.8;
+}
+div a:hover {
+    opacity: 1.0;
+}
 #btn-deployed{
     display: block;
     background-color: #fdffb6;
