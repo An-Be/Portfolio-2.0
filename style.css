@@ -233,7 +233,8 @@ footer {
 }
 
 /* for mobile and tablet/smaller screen responsiveness */
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1050px) and (min-width: 768px) {
+
   #about {
     display: flex;
     align-items: center;
@@ -263,6 +264,15 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  #top-nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 1.5rem;
+  }
+  #logo{
+    align-self: flex-start;
+  }
   #about {
     display: flex;
     align-items: center;
