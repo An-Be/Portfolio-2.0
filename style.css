@@ -263,14 +263,14 @@ label, input, textarea{
 textarea{
   height: 15rem;
 } */
-#submit{
+/* #submit{
   background-color: #caffbf;
   border: none;
   border-radius: 1rem;
   margin: 1rem;
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
-}
+} */
 footer {
   display: flex;
   flex-direction: column;
