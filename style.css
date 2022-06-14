@@ -18,7 +18,7 @@ nav a {
 }
 /* landing image */
 #showcase {
-  background-image: url("Img\\background-home.avif");
+  background-image: url("Img\\background-home.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
