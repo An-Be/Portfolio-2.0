@@ -236,6 +236,38 @@ div a:hover {
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
 }
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact h2{
+  font-weight: 600;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px #9bf6ff;
+}
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label, input, textarea{
+  width: 80%;
+}
+textarea{
+  height: 15rem;
+}
+ #submit{
+  background-color: #caffbf;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 1px #bdb2ff;
+}
 footer {
   display: flex;
   flex-direction: column;
