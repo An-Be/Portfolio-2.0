@@ -31,17 +31,17 @@ I also used media queries for mobile responsiveness.
 - [x] no "!important" property
 
 ## Feature Completion
-- [ ] You have fully deployed website, and can share a link of it with the class
-- [ ] The project is committed and pushed to your github repo
-- [ ] The website features at least three pages (home, bio, portfolio)
-- [ ] The website contains a sufficient mixture of legitimate content, pictures, and placeholders
-- [ ] The website is styledm having a discrete header, footer, and main content
-- [ ] There are links to each sub-page in the header
-- [ ] The site is visually appealing
-- [ ] The site is Mobile Friendly
-- [ ] The content is positioned appropriately (not overflowing into other portions of the site)
-- [ ] The site has content the properly fills the appropriate space
+- [x] You have fully deployed website, and can share a link of it with the class
+- [x] The project is committed and pushed to your github repo
+- [x] The website features at least three pages (home, bio, portfolio)
+- [x] The website contains a sufficient mixture of legitimate content, pictures, and placeholders
+- [x] The website is styledm having a discrete header, footer, and main content
+- [x] There are links to each sub-page in the header
+- [x] The site is visually appealing
+- [x] The site is Mobile Friendly
+- [x] The content is positioned appropriately (not overflowing into other portions of the site)
+- [x] The site has content the properly fills the appropriate space
 
 ## Personal Goals
-- [ ] Add a contact me form
-- [ ] Incorporate some javascript
+- [x] Add a contact me form -- left it commented out for now will be moving it to a new test branch instead
+- [x] Incorporate some javascript 
