@@ -200,7 +200,7 @@ div a:hover {
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
 }
-#btn-deployed-password-gen{
+#btn-deployed-password-gen {
   display: block;
   background-color: #9bf6ff;
   border: none;
@@ -208,9 +208,8 @@ div a:hover {
   margin: 1rem;
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
-
 }
-#btn-source-password-gen{
+#btn-source-password-gen {
   display: block;
   background-color: #a0c4ff;
   border: none;
@@ -219,7 +218,7 @@ div a:hover {
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
 }
-#btn-deployed-random-num-gen{
+#btn-deployed-random-num-gen {
   display: block;
   background-color: #fdffb6;
   border: none;
@@ -227,9 +226,8 @@ div a:hover {
   margin: 1rem;
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
-
 }
-#btn-source-random-num-gen{
+#btn-source-random-num-gen {
   display: block;
   background-color: #ffadad;
   border: none;
@@ -237,40 +235,7 @@ div a:hover {
   margin: 1rem;
   padding: 0.5rem;
   box-shadow: 3px 3px 1px #bdb2ff;
-
 }
-/* #contact{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#contact h2{
-  font-weight: 600;
-  font-size: 2rem;
-  text-shadow: 2px 2px 2px #9bf6ff;
-}
-form{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-label, input, textarea{
-  width: 80%;
-}
-textarea{
-  height: 15rem;
-} */
-/* #submit{
-  background-color: #caffbf;
-  border: none;
-  border-radius: 1rem;
-  margin: 1rem;
-  padding: 0.5rem;
-  box-shadow: 3px 3px 1px #bdb2ff;
-} */
 footer {
   display: flex;
   flex-direction: column;
@@ -306,7 +271,6 @@ footer {
 
 /* for mobile and tablet/smaller screen responsiveness */
 @media (max-width: 1050px) and (min-width: 768px) {
-
   #about {
     display: flex;
     align-items: center;
@@ -339,10 +303,10 @@ footer {
   #top-nav {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 1.5rem;
   }
-  #logo{
+  #logo {
     align-self: flex-start;
   }
   #about {
