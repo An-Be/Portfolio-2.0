@@ -273,75 +273,39 @@ footer {
 /* for mobile and tablet/smaller screen responsiveness */
 @media (max-width: 1050px) and (min-width: 768px) {
   #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 2rem;
   }
   #tech {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
   #tech-list {
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
     flex-direction: column;
   }
   #intro h2 {
-    color: white;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad, 6px 6px 1px #a0c4ff;
-    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
   }
 }
 @media (max-width: 767px) {
   #top-nav {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 1.5rem;
   }
   #logo {
     align-self: flex-start;
   }
   #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 2rem;
   }
   #projects {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
   }
   #tech {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
   #tech-list {
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
     flex-direction: column;
   }
   #intro h2 {
-    color: white;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 1px black, 3px 3px 1px #ffadad, 6px 6px 1px #a0c4ff;
-    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
   }
