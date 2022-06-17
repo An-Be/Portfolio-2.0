@@ -35,7 +35,7 @@ I also used media queries for mobile responsiveness.
 - [x] The project is committed and pushed to your github repo
 - [x] The website features at least three pages (home, bio, portfolio)
 - [x] The website contains a sufficient mixture of legitimate content, pictures, and placeholders
-- [x] The website is styledm having a discrete header, footer, and main content
+- [x] The website is styled having a discrete header, footer, and main content
 - [x] There are links to each sub-page in the header
 - [x] The site is visually appealing
 - [x] The site is Mobile Friendly
