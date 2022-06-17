@@ -43,5 +43,5 @@ I also used media queries for mobile responsiveness.
 - [x] The site has content the properly fills the appropriate space
 
 ## Personal Goals
-- [x] Add a contact me form -- left it commented out for now will be moving it to a new test branch instead
+- [x] Add a contact me form --contact me form / javascript code for it is currently sitting in a separate branch
 - [x] Incorporate some javascript 
